@@ -1,0 +1,387 @@
+.main__item{
+    padding-top:2%;
+}
+.login--contact{
+    background-color:  rgb(75,71,141);
+    display: flex;
+    width: 100%;
+    height: 55px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.login__contact__link{
+    width: 100%;
+}
+.login--details a,
+.contact--details a,
+.contact a,
+.login a{
+    color: white;
+    margin-top: 5%;
+    position: relative;
+    top: 14px;
+    padding-right: 20px;
+}
+.details{
+    padding-bottom:2%;
+}
+.login:hover, 
+.contact:hover{
+    color: orange;
+}
+.login--contact .login--details a:hover,
+.login--contact .contact--details a:hover{
+    color: rgb(75,71,141);
+}
+.category--title{
+    text-transform: uppercase;
+    color: rgb(75,71,141);
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    background-color: orange;
+    height: 0.4vw;
+    width: 14vw;
+    margin: auto;
+    margin-bottom: 4%;
+}
+.hot__products__item--img{
+    height: 200px;
+    padding-top: 0%;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.hot__products__item--phone{
+    font-size: 40px;
+    font-weight: 700;
+    color: aliceblue;
+    line-height: 210px;
+}
+.hot__products__item--name{
+    text-align: center;
+    line-height: 63px;
+    font-weight: 600;
+    color: rgb(75,71,141);
+    text-transform: uppercase;
+}
+.hot__products__item--name:hover{
+    color: orange;
+}
+.hot__products__item{
+    height: 262px;
+    margin-top: 4%;
+    border-radius: 10px;
+    box-shadow: 0 3px 2px #000;
+    -webkit-box-shadow: 0 3px 12px #555151;
+    -moz-box-shadow:0 3px 2px #000;
+}
+.hot__products__item a{
+    border-bottom: 0;
+}
+/*general introduction*/
+.general__introduction{
+    margin-top: 2%;
+    left:0;
+    background: rgb(75,71,141) ;
+}
+.general__introduction--title{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    color: orange;
+    font-weight: 700;
+    padding-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.general__introduction--question a{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.general__introduction--question a:hover{
+    color: white;
+}
+.general__introduction--question span{
+    border-bottom: 3px solid orange;
+}
+.general__introduction__content{
+    color: white;
+    padding-top:2%;
+    padding-bottom:9%;
+}
+.general__introduction__content--show {
+    position: absolute;
+    right: 2rem;
+}
+.general__introduction__content--show a{
+    color: orange;
+    right: 0;
+
+}
+/*Service*/
+.service__item{
+    padding-top: 2%;
+}
+.service__item__left__content{
+    height: 500px; 
+    position: absolute; 
+    right: 0; 
+    border: 1px solid black; 
+    border-radius: 10px;
+}
+.service__item__left__content,
+.service__item__right__content{
+    height: 550px; 
+    border: 3px solid rgb(143,145,149); 
+    border-radius: 10px;
+    background: rgb(188,188,188);
+}
+.service__item__left__content--title,
+.service__item__right__content--title{
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(75,71,141) ;
+}
+.service__item__left__content--image{
+    height: 300px;
+}
+.service__item__left__content--menu a,
+.service__item__right__content--menu a{
+    line-height: 30px;
+    padding-left: 3rem;
+    font-weight: 500;
+    font-size: 22px;
+    top: 21px;
+    text-transform: inherit;
+    color: rgb(75,71,141);
+    font-family: -webkit-body;
+    border-bottom: none;
+    position: relative;
+}
+.hot__products__slide{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+/*Certification-giấy chứng nhận*/
+.certification{
+     background-color: rgb(252,195,52);
+     padding-top: 2%;
+     padding-bottom: 4%;
+}
+.certification hr{
+    background: white;
+}
+/*outstanding project*/
+.product__item--img,
+.outstanding__project--item{
+    width: 90%; height: 100%
+}
+.outstanding__project--item:hover{
+    padding: 1px;
+    box-shadow: 0px 3px 12px #888888;
+  }
+.outstanding__project--name{
+    position: absolute;
+    text-align: center;
+    color: rgb(75,71,141);
+    left: 50%;
+    top: 50%;
+    font-size: 2vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    display: none;
+    transition: .4s;
+}
+.product--item:hover{
+    opacity: 0.5;
+}
+.outstanding__project--item:hover {
+    opacity: 0.5;
+}
+.outstanding__project--item:hover + .outstanding__project--name{
+    display: block;
+}
+/*summary*/
+.summary{
+    background-color: orange;
+    margin-top:1%;
+    padding-bottom: 3%;
+}
+.summary--number1,
+.summary--number2,
+.summary--number3,
+.summary--number4{
+    line-height: 100px;
+    font-size: 4rem;
+    color: white;
+    font-family: initial;
+    font-weight: 900;
+    padding-top: 24px;
+}
+.summary--number1::before,
+.summary--number2::before,
+.summary--number3::before,
+.summary--number4::before{
+    line-height: 1.7rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: 48px;
+    left: 97px;
+    color: white;
+    font-size: 1.8rem;
+    font-family: monospace;
+}
+.summary--number1::before{
+    content: 'năm hình thành & phát triển'
+}
+.summary--number2::before{
+    content: 'nhà máy sản xuất'
+}
+.summary--number3::before{
+    content: 'công ty thành viên'
+}
+.summary--number4::before{
+    content: 'đạt chứng nhận iso 9001:2008'
+}
+.summary--content{
+    margin-top: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+.product__item{
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(219, 219,219);
+    transition: .4s;
+}
+.product__item--img{
+    top: 12px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.product__item--name{
+    height: 64px;
+    text-align: center;
+    padding-top: 7%;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(75,71,141);
+}
+.product__item:hover{
+  padding: 1px;
+  box-shadow: 0px 3px 12px #888888;
+}
+.service--owl .owl-nav .owl-next,
+.service--owl .owl-nav .owl-prev,
+.hot__product--owl .owl-nav .owl-next,
+.hot__product--owl .owl-nav .owl-prev{
+    outline: none;
+}
+.owl-next:hover{
+    background-color: none !important;
+}
+.Related__Products{
+    background-color:rgb(252,195,52)
+}
+.Related__Products .nav-item .nav-link{
+    color: rgb(75,71,141);
+}
+.Related__Products .nav-item .nav-link:hover{
+    color:white;
+    font-size: 15px;
+    border-bottom: 0 solid;
+}
+.justify-content-center .nav-item .Related__Products--link{
+   padding-left: 11px;
+   padding-top: 0;
+}
+.slide__bigLogo{
+    z-index: 111;
+}
+.login--contact .login a:hover,
+.login--contact .contact a:hover{
+    color:orange;
+    border-bottom:0 solid;
+}
+.hot__product--owl .owl-nav button{
+    top: 50px;
+}
+.carousel-indicators--container{
+    position: relative;
+}
+.carousel-indicators__img--item{
+    opacity: 0.5;
+    transition: .5s all;
+}
+.carousel-indicators__img--item:hover{
+    opacity: 1;
+}
+
+.carousel-item--details img{border: 6px solid rgb(75,71,141);border-radius: 10px;}
+.details--content{margin-top: 0;font-size: 1.6vw;font-family: Arial, Helvetica, sans-serif;color:rgb(75,71,141);}
+.partner{
+    background-color: rgb(247, 247, 247);
+}
+.contact__form--input{
+    height: calc(2.5em + 0.7rem + -9px) !important;
+    border: 1px solid rgb(75,71,141) !important;
+}
+.contact__form--textaria{border: 1px solid rgb(75,71,141) !important; height: calc(3.5em + 0.7rem + -9px) !important;}
+.contact__form{
+    margin-bottom: 2rem !important;
+}
+.contact__button button{
+    background-color: rgb(75,71,141); font-size: 1.5rem;
+}
+.contact__button button:hover{
+    background-color: rgb(22, 20, 66);
+}
+.contact--title,
+.contact__name--company,
+.contact__item
+{text-transform: uppercase;color: rgb(75,71,141);font-family: Arial, Helvetica, sans-serif;
+}
+.contact--title{
+    font-size: 2.6vw;
+    font-weight: 600;
+}
+.contact__name--company{
+   font-weight: 600;
+   font-size: 2vw;
+}
+.contact__item{
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+/*news*/
+.list__item{
+    border-bottom: 1px solid #afafaf70;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+}
+.list__item__image{width:100%; position: relative;}
+.list__item__image img{width: 100%; height: 100%;}
+.list__item__image--link{position: absolute; bottom: 0; left: 0; width: 100%; text-align: center; background-color: rgb(75,71,141); color: white; padding: 2%; font-weight: bold;
+}
+.list__item__col12{padding-left: 2%; position: relative; height: 100%;}
+.list__item__col12--title{font-size: 22px; text-transform: uppercase; padding-bottom: 2%;}
+.list__item__col12--content{overflow: hidden; text-overflow: ellipsis; display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;} 
+.new__posts{border: 1px solid #b5b5b55c; height: 95%;}
+.new__post--header{font-size: 25px; line-height: 32px; padding-bottom: 10px; padding-top: 3%; font-weight: bold; text-transform: uppercase; text-align: center;}
+.new__posts--link{font-size: 17px;display: block;color:rgb(75,71,141); padding-bottom: 2%; padding-left: 3px; text-transform: uppercase;}
